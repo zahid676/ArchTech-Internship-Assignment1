@@ -1,30 +1,21 @@
-TASK 2: EDUCATIONAL KEY LOGGING DEMONSTRATION
+TASK 1: BASIC NETWORK SNIFFER
 
 Objective:
-To understand how keystroke logging works in a controlled and ethical environment.
+To capture and analyze network packets using Python and Scapy in Kali Linux.
 
 Tools Used:
 - Kali Linux
 - Python3
-- pynput library
+- Scapy Library
 
-Features:
-- Captures keystrokes locally
-- Displays on screen
-- Saves to logs.txt
-- Stops when ESC is pressed
-- Timestamp included
+How to Run:
+1. Install scapy using: sudo apt install python3-scapy
+2. Run: sudo python3 sniffer.py
+3. It captures 10 packets and displays:
+   - Source IP
+   - Destination IP
+   - Protocol (TCP/UDP)
+   - Ports
+   - Packet length
 
-Risks of Keylogging:
-- Password theft
-- Privacy invasion
-- Financial fraud
-- Corporate espionage
-
-Prevention:
-- Use antivirus software
-- Keep system updated
-- Use 2FA
-- Avoid suspicious downloads
-
-Educational purpose only.
+Educational Purpose Only.
